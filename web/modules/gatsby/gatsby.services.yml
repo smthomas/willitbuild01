@@ -1,0 +1,4 @@
+services:
+  gatsby.gatsby_preview:
+    class: Drupal\gatsby\GatsbyPreview
+    arguments: ['@http_client', '@config.factory', '@entity_type.manager', '@logger.factory', '@jsonapi_extras.entity.to_jsonapi']

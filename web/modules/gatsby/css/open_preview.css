@@ -1,0 +1,21 @@
+
+.button.form-submit.gatsby-preview {
+  color: #fff;
+  text-shadow: none;
+  background: rgb(102, 51, 153);
+  background-image: url(../images/gatsby_logo.svg);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  background-position: 12px 5px;
+  border: 1px solid #999;
+  padding-left: 39px;
+}
+
+.button.form-submit.gatsby-preview:hover,
+.button.form-submit.gatsby-preview:focus {
+  background: #362066;
+  background-image: url(../images/gatsby_logo.svg);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  background-position: 12px 5px;
+}

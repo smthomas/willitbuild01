@@ -1,0 +1,7 @@
+gatsby.gatsby_admin_form:
+  title: 'Gatsby Live Preview Settings'
+  route_name: gatsby.gatsby_admin_form
+  description: 'Gatsby Live Preview Settings'
+  parent: system.admin_config_system
+  weight: 99
+

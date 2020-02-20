@@ -1,0 +1,14 @@
+{
+  "name": "drupal/gatsby",
+  "type": "drupal-module",
+  "description": "Enables Live Preview for Gatsby",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/gatsby",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/gatsby",
+    "source": "http://cgit.drupalcode.org/gatsby"
+  },
+  "require": { }
+}

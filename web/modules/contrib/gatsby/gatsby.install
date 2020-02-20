@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the gatsby module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function gatsby_install() {
+  // Gatsby's hook_node_insert must run after all other modules have modified
+  // the entity.
+  module_set_weight('gatsby', 100);
+}
