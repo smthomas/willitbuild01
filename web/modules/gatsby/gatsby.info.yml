@@ -1,0 +1,14 @@
+name: 'Gatsby Live Preview'
+type: module
+description: 'Enables Live Preview for Gatsby'
+core: 8.x
+package: 'Gatsby'
+configure: gatsby.gatsby_admin_form
+dependencies:
+  - jsonapi
+  - jsonapi_extras
+
+# Information added by Drupal.org packaging script on 2019-11-24
+version: '8.x-1.0-beta1'
+project: 'gatsby'
+datestamp: 1574620684

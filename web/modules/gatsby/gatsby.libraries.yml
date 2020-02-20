@@ -1,0 +1,16 @@
+open_preview:
+  version: VERSION
+  js:
+    js/open_preview.js: {}
+  css:
+    theme:
+      css/open_preview.css: {}
+iframe_preview:
+  version: VERSION
+  css:
+    theme:
+      css/iframe_preview.css: {}
+gatsby_admin:
+  version: VERSION
+  js:
+    js/gatsby_admin.js: {}
