@@ -20,6 +20,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^2.1",
         "drupal/feeds": "^3.0@alpha",
+        "drupal/jsonapi_extras": "^3.13",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8.3",
         "pantheon-systems/drupal-integrations": "^8",
