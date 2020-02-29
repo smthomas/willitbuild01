@@ -1,0 +1,23 @@
+uuid: 2ee776f2-dce5-4341-97b2-a1b2df28d420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_public_image_url
+    - node.type.article
+  module:
+    - link
+id: node.article.field_public_image_url
+field_name: field_public_image_url
+entity_type: node
+bundle: article
+label: 'Public Image URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

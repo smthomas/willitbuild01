@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -21,6 +22,8 @@ module:
   help: 0
   history: 0
   image: 0
+  jsonapi: 0
+  jsonapi_extras: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -31,6 +34,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -39,6 +43,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
   views_ui: 0
   menu_link_content: 1
   views: 10
