@@ -13,4 +13,4 @@ settings:
   provider: build_hooks
   build_hook_url: 'https://webhook.staging.gtsb.io/hooks/benchmarks/publish/drupal/512/3704dfc4-d35d-4e04-9ea4-351663469a1f'
 url: 'https://gatsbyjs.com'
-deployment_strategy: manual
+deployment_strategy: entitysave
