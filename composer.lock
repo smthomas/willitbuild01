@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c20d0678c28383297ea3ec300c7a1508",
+    "content-hash": "e09f904b8b73fa7e686cb7e172fa61d4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1155,6 +1155,57 @@
                 "php"
             ],
             "time": "2019-06-08T11:03:04+00:00"
+        },
+        {
+            "name": "drupal/build_hooks",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/build_hooks.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/build_hooks-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "e9e3e0ad4c63b4ba6579ce3b8409e0138b69765d"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1559417885",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jmolivas",
+                    "homepage": "https://www.drupal.org/user/678770"
+                },
+                {
+                    "name": "vermario",
+                    "homepage": "https://www.drupal.org/user/121062"
+                }
+            ],
+            "description": "Triggers a build hook on any service provider that supports build hooks.",
+            "homepage": "https://www.drupal.org/project/build_hooks",
+            "support": {
+                "source": "https://git.drupalcode.org/project/build_hooks"
+            }
         },
         {
             "name": "drupal/config_direct_save",
@@ -2782,6 +2833,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -2828,6 +2880,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -8268,5 +8321,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.0.8"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
