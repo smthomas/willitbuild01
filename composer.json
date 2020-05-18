@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^2.1",
         "drupal/feeds": "^3.0@alpha",
+        "drupal/gatsby": "1.x-dev",
         "drupal/jsonapi_extras": "^3.13",
         "drupal/views_bulk_operations": "^3.5",
         "drush-ops/behat-drush-endpoint": "^9.3",

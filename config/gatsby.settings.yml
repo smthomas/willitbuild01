@@ -1,0 +1,16 @@
+server_url: ''
+incrementalbuild_url: 'https://webhook.gatsbyjs.com/hooks/benchmarks/publish/drupal/512/3704dfc4-d35d-4e04-9ea4-351663469a1f,https://webhook.staging.gtsb.io/hooks/benchmarks/publish/drupal/512/3704dfc4-d35d-4e04-9ea4-351663469a1f'
+build_published: 1
+preview_entity_types:
+  node: node
+  block_content: 0
+  comment: 0
+  contact_message: 0
+  file: 0
+  path_alias: 0
+  shortcut: 0
+  taxonomy_term: 0
+  user: 0
+  menu_link_content: 0
+secret_key: ''
+legacy_preview_url: 0
